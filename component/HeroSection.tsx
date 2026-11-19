@@ -6,11 +6,11 @@ import { ArrowRight } from "lucide-react"
 export default function HeroSection(){
     return(
         <section id="home" >
-            <div className="relative p-4 w-full bg-black px-4 md:px-8">
+            <div className="relative p-4 w-full bg-black px-4 md:px-10 lg:px-20">
                 <Image src="/vogue-tech-automotive-automation-workshop-uk.webp" alt="vogue tech automotive automation workshop uk" fill className="absolute z-1 object-cover" />
                 <Image src="/Subtle brand green glow.png" alt="Subtle brand green glow" fill className="absolute z-3 object-top" />
                 <div className="absolute inset-0 z-[2] bg-[#020617]/75" />
-                <div className="relative p-4 w-full bg-black mt-16 px-4 md:px-8">
+                <div className="relative p-4 w-full bg-black mt-16 px-4 md:px-10 lg:px-20">
                     <div className="relative z-4 container mx-auto">
                         <div className="py-8">
                             <div className="flex flex-col gap-8 items-center justify-center">

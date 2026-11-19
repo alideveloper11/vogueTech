@@ -5,7 +5,7 @@ import { ChevronRight, MapPin, Phone, Mail, Clock } from "lucide-react"
 
 export default function Footer(){
     return (
-        <div className="bg-[#042D19] w-full mt-8 px-4 md:px-8">
+        <div className="bg-[#042D19] w-full mt-8 px-4 md:px-20 lg:px-40">
             <div className=" container mx-auto">
                 <div className="py-8">
                     <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1.4fr_1fr_1fr] lg:gap-16">

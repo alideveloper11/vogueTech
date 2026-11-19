@@ -53,8 +53,8 @@ export default function ReviewCarousel() {
     };
 
     return (
-        <section className="bg-white w-full">
-            <div className="container mx-auto px-4 md:px-8">
+        <section className="bg-white w-full px-4 md:px-20 lg:px-40">
+            <div className="container mx-auto">
                 <div className="py-8 flex flex-col gap-4">
                     <div className="bg-brand-green/10 flex items-center justify-center gap-4 rounded-lg w-60 h-8">
                         <Star size={16} className="text-brand-darkGreen" />
@@ -68,7 +68,7 @@ export default function ReviewCarousel() {
                     </div>
                 </div>
             </div>
-            <div className="py-4 overflow-hidden">
+            <div className="relative py-4 overflow-hidden">
                 <div
                     ref={divRef}
                     onTransitionEnd={handleTransitionEnd}
@@ -102,6 +102,11 @@ export default function ReviewCarousel() {
                         )
                     })}
                 </div>
+                {/* left blur */}
+                <div className="pointer-events-none absolute inset-y-0 left-0 w-16 md:w-24 backdrop-blur-sm [mask-image:linear-gradient(to_right,black,transparent)] [-webkit-mask-image:linear-gradient(to_right,black,transparent)]" />
+
+                {/* right blur */}
+                <div className="pointer-events-none absolute inset-y-0 right-0 w-16 md:w-24 backdrop-blur-sm [mask-image:linear-gradient(to_left,black,transparent)] [-webkit-mask-image:linear-gradient(to_left,black,transparent)]" />
             </div>
         </section>
     )

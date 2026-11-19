@@ -25,7 +25,7 @@ export default function RepairPerformance(){
     }, []);
 
     return(
-        <div className="p-4 w-full bg-white px-4 md:px-8">
+        <div className="p-4 w-full bg-white px-4 md:px-20 lg:px-40">
             <div className="container mx-auto py-8">
                 <div className="flex flex-col gap-12 items-center justify-center">
                     <div className="flex flex-col gap-2 items-center justify-center">

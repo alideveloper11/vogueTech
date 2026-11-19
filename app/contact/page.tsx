@@ -46,8 +46,8 @@ export default function Contact() {
     <main>
       <NavBar />
       <main className="mt-30 mb-16">
-        <section className="bg-white w-full">
-          <div className="container mx-auto px-4 md:px-8">
+        <section className="bg-white px-4 md:px-20 lg:px-40">
+          <div className="container mx-auto">
             <div className="relative mb-4 p-4 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.2)] rounded-lg
                 before:content-[''] before:absolute before:-top-1
                 before:left-0 before:right-0 before:h-1
@@ -71,8 +71,8 @@ export default function Contact() {
             </div>
           </div>
         </section>
-        <section className="bg-white w-full mt-12">
-          <div className="container mx-auto px-4 md:px-8">
+        <section className="bg-white px-4 md:px-20 lg:px-40 mt-12">
+          <div className="container mx-auto">
             <div className="relative mb-4 p-6 md:p-8 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.2)] rounded-lg flex flex-col gap-6">
               <h2 className="text-2xl lg:text-3xl font-black text-black">
                 Contact information
