@@ -10,7 +10,6 @@ import AboutVogueTech from "@/component/AboutVogueTech";
 import Location from "@/component/Location";
 import Faq from "@/component/Faq";
 import Gallery from "@/component/Gallery";
-import ContactComponent from "@/component/ContactComponent";
 import RepairPerformance from "@/component/RepairPerformance";
 import Services from "@/component/Services";
 
@@ -27,7 +26,6 @@ export default function Home() {
       <AboutVogueTech />
       <Services />
       <RepairPerformance />
-      <ContactComponent />
       <Gallery />
       <Faq />
       <Location />

@@ -62,7 +62,7 @@ export default function NavBar(){
         return () => clearInterval(timer);
     }, [pathname]);
     return (
-        <div className="fixed top-0 left-0 right-0 z-20 py-3 shadow-md bg-brand-green w-full px-4 md:px-8">
+        <div className="fixed top-0 left-0 right-0 z-20 py-3 shadow-md bg-brand-green px-4 md:px-20 lg:px-40">
             <div className=" container mx-auto">
                 <div className="flex items-center justify-between">
                     <div>

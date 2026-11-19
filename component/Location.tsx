@@ -4,7 +4,7 @@ import { ArrowRight, MapPin, Phone, Mail, Clock } from "lucide-react"
 
 export default function Location(){
     return(
-        <section className="bg-white px-4 md:px-8">
+        <section className="bg-white px-4 md:px-20 lg:px-40">
             <div className="container mx-auto py-5">
                 <div className="flex flex-col gap-4 items-center justify-center">
                     <div className="bg-brand-green/10 flex items-center justify-center rounded-lg p-2 w-60 md:w-90">

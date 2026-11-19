@@ -4,7 +4,7 @@ import { CircleCheck } from "lucide-react"
 
 export default function Automation(){
     return(
-        <div className="bg-brand-yellowBg mt-8 px-4 md:px-8">
+        <div className="bg-brand-yellowBg mt-8 px-4 md:px-20 lg:px-40">
             <div className="container mx-auto py-16">
                 <div className="hidden lg:grid grid-cols-2 gap-2">
                     <div className="flex flex-col gap-4 items-start justify-start">

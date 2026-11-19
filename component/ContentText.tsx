@@ -1,6 +1,6 @@
 export default function ContentText(){
     return(
-        <div className="p-4 w-full bg-white px-4 md:px-8">
+        <div className="p-4 w-full bg-white px-4 md:px-20 lg:px-40">
             <div className="container mx-auto py-8">
                 <div className="flex flex-col gap-8 items-center justify-center">
                     <div className="bg-brand-green/10 flex items-center justify-center rounded-lg p-2 w-60 md:w-90">

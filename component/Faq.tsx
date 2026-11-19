@@ -50,7 +50,7 @@ export default function Faq(){
         setOpenIndex(openIndex === index ? null : index);
     };
     return(
-        <section className="bg-brand-yellowBg px-4 md:px-8">
+        <section className="bg-brand-yellowBg px-4 md:px-20 lg:px-40">
             <div className="container mx-auto py-10">
                 <div className="flex flex-col items-center justify-center gap-8">
                     <div className="bg-brand-green/10 flex items-center justify-center rounded-lg p-2 w-60">

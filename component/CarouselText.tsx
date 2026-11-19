@@ -28,8 +28,8 @@ export default function CarouselText(){
         };
     },[])
     return(
-        <section className="bg-brand-yellowBg">
-            <div className="py-4 overflow-hidden">
+        <section className="bg-brand-yellowBg px-4 md:px-20 lg:px-40">
+            <div className="relative container mx-auto py-4 overflow-hidden">
                 <div ref={divRef} onClick={()=>setPaused(true)} className={`flex gap-6 w-max animate-carousel hover:[animation-play-state:paused] ${paused ? "[animation-play-state:paused]" : ""}`} style={{ animationDuration: `${set.length * 4}s` }}>
                     {items.map((item,index)=>{
                         return(
@@ -40,6 +40,11 @@ export default function CarouselText(){
                         )
                     })}
                 </div>
+                {/* left blur */}
+                <div className="pointer-events-none absolute inset-y-0 left-0 w-16 md:w-24 backdrop-blur-sm [mask-image:linear-gradient(to_right,black,transparent)] [-webkit-mask-image:linear-gradient(to_right,black,transparent)]" />
+
+                {/* right blur */}
+                <div className="pointer-events-none absolute inset-y-0 right-0 w-16 md:w-24 backdrop-blur-sm [mask-image:linear-gradient(to_left,black,transparent)] [-webkit-mask-image:linear-gradient(to_left,black,transparent)]" />
             </div>
         </section>
     )
