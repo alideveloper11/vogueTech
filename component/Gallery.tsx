@@ -8,15 +8,15 @@ import { useEffect, useState, useRef } from "react";
 const SLIDE_DURATION = 500;
 
 const list = [
-    { src: "/Automotive-Automation-Bay-at-Vogue-Tech.webp", alt: "Automotive Automation Bay at Vogue Tech" },
-    { src: "/Automotive-Diagnostic-ECU-and-Wiring-Bench-at-Vogue-Tech.webp", alt: "Automotive Diagnostic ECU and Wiring Bench at Vogue Tech" },
-    { src: "/vogue-tech-automotive-automation-workshop-uk.webp", alt: "Vogue Tech automotive automation workshop UK" },
-    { src: "/Automotive-Automation-Bay-at-Vogue-Tech.webp", alt: "Automotive Automation Bay at Vogue Tech" },
-    { src: "/Automotive-Diagnostic-ECU-and-Wiring-Bench-at-Vogue-Tech.webp", alt: "Automotive Diagnostic ECU and Wiring Bench at Vogue Tech" },
-    { src: "/vogue-tech-automotive-automation-workshop-uk.webp", alt: "Vogue Tech automotive automation workshop UK" },
-    { src: "/Automotive-Automation-Bay-at-Vogue-Tech.webp", alt: "Automotive Automation Bay at Vogue Tech" },
-    { src: "/Automotive-Diagnostic-ECU-and-Wiring-Bench-at-Vogue-Tech.webp", alt: "Automotive Diagnostic ECU and Wiring Bench at Vogue Tech" },
-    { src: "/vogue-tech-automotive-automation-workshop-uk.webp", alt: "Vogue Tech automotive automation workshop UK" },
+    { src: "/gallery/1.png", alt: "Gallery 1" },
+    { src: "/gallery/2.png", alt: "Gallery 2" },
+    { src: "/gallery/3.png", alt: "Gallery 3" },
+    { src: "/gallery/4.png", alt: "Gallery 4" },
+    { src: "/gallery/5.png", alt: "Gallery 5" },
+    { src: "/gallery/6.png", alt: "Gallery 6" },
+    { src: "/gallery/7.png", alt: "Gallery 7" },
+    { src: "/gallery/8.png", alt: "Gallery 8" },
+    { src: "/gallery/9.png", alt: "Gallery 9" },
 ];
 
 export default function Gallery() {
@@ -90,7 +90,7 @@ export default function Gallery() {
                     <div className="bg-brand-green/10 flex items-center justify-center gap-4 rounded-lg w-30 h-8">
 
                         <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">
-                            Gallery
+                            GALLERY
                         </p>
 
                     </div>
@@ -106,12 +106,7 @@ export default function Gallery() {
                     <div>
 
                         <p className="text-xs lg:text-sm font-medium text-brand-grey text-center">
-                            Explore the Vogue Tech gallery to see our workshop,
-                            automotive services, and expertise in action. From
-                            detailed engine repairs to specialist vehicle
-                            maintenance, discover the quality workmanship,
-                            professional approach, and dedication we bring
-                            to every job.
+                            See inside our Thurrock workshop, from engine strip-downs and timing chain jobs to finished rebuilds ready for the road.
                         </p>
 
                     </div>
@@ -128,8 +123,8 @@ export default function Gallery() {
                     <div className="relative w-full h-[300px] rounded-lg overflow-hidden">
 
                         <Image
-                            src="/vogue-tech-automotive-automation-workshop-uk.webp"
-                            alt="Vogue Tech automotive automation workshop UK"
+                            src="/gallery/main-gallery-image.jpeg"
+                            alt="Main Gallery Image"
                             fill
                             priority
                             className="object-cover"
@@ -159,7 +154,7 @@ export default function Gallery() {
 
                             <div
                                 key={i}
-                                className="bg-white shadow-md rounded-lg overflow-hidden shrink-0 w-[220px] md:w-[260px] lg:w-[300px]"
+                                className="bg-white shadow-md rounded-lg overflow-hidden shrink-0 h-[300px] w-[220px] md:w-[260px] lg:w-[300px]"
                             >
 
                                 <Image

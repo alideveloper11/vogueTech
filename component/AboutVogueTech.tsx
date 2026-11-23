@@ -9,17 +9,14 @@ export default function AboutVogueTech(){
                         <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">ABOUT VOGUE TECH</p>
                     </div>
                     <div className="">
-                        <h1 className="text-black text-3xl lg:text-5xl font-black text-center">Driving Excellence Through Expert Automotive Care</h1>
+                        <h1 className="text-black text-3xl lg:text-5xl font-black text-center">Independent Engine Specialists With Main Dealer Knowledge</h1>
                     </div>
                     <div className="">
                         <p className="text-xs lg:text-sm font-medium text-gray-700">
-                            At <span className="text-brand-green">Vogue Tech</span>, we are dedicated to keeping your vehicle performing at its best. We are a UK-based automotive garage providing professional vehicle maintenance, advanced diagnostics, engine repairs, and specialist automotive solutions.
+                            <span className="text-brand-green">Vogue Tech</span> has built its reputation one engine at a time. We chose to specialise in engine work on Range Rover, Land Rover, Jaguar, Audi and BMW rather than be a general garage, and most new customers still reach us through recommendation.
                         </p>
                         <p className="mt-2 text-xs lg:text-sm font-medium text-gray-700">
-                            {`From routine servicing and battery replacements to complex engine rebuilds, turbocharger repairs, timing chain replacements, and electrical diagnostics, we offer a comprehensive range of services to meet your vehicle's needs.`}
-                        </p>
-                        <p className="mt-2 text-xs lg:text-sm font-medium text-gray-700">
-                            {`Our approach combines technical expertise, modern diagnostic technology, and attention to detail to identify problems accurately and deliver dependable repair solutions. Whether your vehicle needs a simple repair or more extensive mechanical work, we aim to provide quality workmanship and a service you can trust`}
+                            {`As an IGA-accredited workshop, we follow a professional code of practice that protects you. Quotes are fixed and itemised, updates are regular, and nothing extra is added without your approval. Customers travel to us from Thurrock, Dartford, Romford, Basildon and across East London for that reason.`}
                         </p>
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-4 w-full">
@@ -31,7 +28,7 @@ export default function AboutVogueTech(){
                                 Expert Workmanship
                             </h2>
                             <p className="text-xs lg:text-sm font-medium text-gray-500">
-                                Professional automotive repair and maintenance.
+                                Engine technicians with years of hands-on experience on premium marques.
                             </p>
                         </div>
                         <div className="bg-[#F4FBF7] border border-[#D1FAE5] p-4 flex flex-col gap-2 rounded-xl">
@@ -42,7 +39,7 @@ export default function AboutVogueTech(){
                                 Advanced Diagnostics
                             </h2>
                             <p className="text-xs lg:text-sm font-medium text-gray-500">
-                                Modern technology for accurate fault detection.
+                                Dealer-level equipment that finds the exact fault the first time.
                             </p>
                         </div>
                         <div className="bg-[#F4FBF7] border border-[#D1FAE5] p-4 flex flex-col gap-2 rounded-xl">
@@ -50,10 +47,10 @@ export default function AboutVogueTech(){
                                 <Settings size={50} className="text-brand-green" />
                             </div>
                             <h2 className="text-lg lg:text-xl font-bold text-center">
-                                Reliable Solutions
+                                Reliable Results
                             </h2>
                             <p className="text-xs lg:text-sm font-medium text-gray-500">
-                                Quality-focused repairs and dependable service.
+                                OEM parts, tested work and a written warranty on every job.
                             </p>
                         </div>
                     </div>
@@ -62,7 +59,7 @@ export default function AboutVogueTech(){
                     </div>
                     <div className="">
                         <p className="text-xs lg:text-sm font-medium text-gray-700">
-                            We believe that every vehicle deserves professional attention and every customer deserves honest, reliable service. At Vogue Tech, our focus is on delivering practical solutions, maintaining vehicle performance, and helping our customers drive with confidence.
+                            Every customer deserves honest advice and every engine deserves careful work. We tell you what your vehicle needs, what it will cost and how long it will take, then we deliver exactly that.
                         </p>
                     </div>
                 </div>

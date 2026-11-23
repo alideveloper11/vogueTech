@@ -7,10 +7,10 @@ export default function CarouselText(){
     const divRef = useRef<HTMLDivElement>(null)
     const [paused, setPaused] = useState(false)
     const list = [
-        { title: "IMI CERTIFIED SPECIALISTS", icon: <CircleCheck size={18} /> },
-        { title: "INSURANCE APPROVED CENTRE", icon: <ShieldCheck size={18} /> },
-        { title: "BOSCH & SNAP-ON DIAGNOSTIC RIGS", icon: <Zap size={18} /> },
-        { title: "SAME-DAY TURNAROUND AVAILABLE", icon: <Clock size={18} /> },
+        { title: "IGA Member", icon: <CircleCheck size={18} /> },
+        { title: "RAC Approved Garage", icon: <ShieldCheck size={18} /> },
+        { title: "CTSI Approved Code", icon: <Zap size={18} /> },
+        { title: "OEM Parts as Standard", icon: <Clock size={18} /> },
     ];
     const set = [...list, ...list, ...list];
     const items = [...set, ...set];

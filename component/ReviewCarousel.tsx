@@ -61,10 +61,10 @@ export default function ReviewCarousel() {
                         <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">VERIFIED FEEDBACK</p>
                     </div>
                     <div>
-                        <h2 className="text-3xl lg:text-4xl font-black text-black">Rated 4.9/5 by UK Luxury Car Owners</h2>
+                        <h2 className="text-3xl lg:text-4xl font-black text-black">Rated 4.9/5 by Drivers Across Essex, Kent and London</h2>
                     </div>
                     <div>
-                        <p className="text-xs lg:text-sm font-medium text-brand-grey">Sample representative customer reviews from Google Business Profile.</p>
+                        <p className="text-xs lg:text-sm font-medium text-brand-grey">Real reviews from our Google Business Profile, from customers who trusted us with their engines.</p>
                     </div>
                 </div>
             </div>

@@ -35,14 +35,15 @@ export default function Faq(){
     const [openIndex, setOpenIndex] = useState<number | null>(0);
 
     const faq =  {
+        badge: "QUESTIONS & ANSWERS",
         heading: "Frequently Asked Questions",
-        subHeading: "Conveniently situated with dedicated diagnostic bays and client waiting lounge.",
+        subHeading: "Clear answers to what customers ask us most.",
         questions: [
-            { question: "What vehicles and marques do you support for automation retrofits?", answer: "We combine your vehicle details with the video, image or text you provide to identify likely faults and explain the next best action."},
-            { question: "Will installing automated accessories or ECU software void my manufacturer warranty?", answer: "We combine your vehicle details with the video, image or text you provide to identify likely faults and explain the next best action."},
-            { question: "What is the typical turnaround time for ADAS calibration and automation installs?", answer: "We combine your vehicle details with the video, image or text you provide to identify likely faults and explain the next best action."},
-            { question: "What warranty and guarantee do you provide on completed work?", answer: "We combine your vehicle details with the video, image or text you provide to identify likely faults and explain the next best action."},
-            { question: "How do I book an appointment and obtain a quote?", answer: "We combine your vehicle details with the video, image or text you provide to identify likely faults and explain the next best action."},
+            { question: "How much does an engine rebuild cost?", answer: "It depends on the engine, the damage and the parts needed. A top-end repair costs far less than a full bottom-end rebuild. After our diagnostic assessment you receive a fully itemised quote, so you know the price before any work begins."},
+            { question: "How long does an engine rebuild take?", answer: "A full rebuild usually takes five to ten working days, depending on the job and parts availability. We give you a realistic timescale with your quote and keep you updated throughout."},
+            { question: "Do you offer a warranty on engine work?", answer: "Yes. Reconditioned engines carry a six-month warranty and used engine swaps carry one month. Extended cover of 12 to 24 months is available at extra cost. Your terms are confirmed in writing."},
+            { question: "Will using an independent specialist affect my manufacturer warranty?", answer: "No, not automatically. Your warranty stays valid when work is done to the correct standard with appropriate parts, which is how we work. Once your car is out of warranty, an independent specialist can save you a significant amount."},
+            { question: "How do I book and get a quote?", answer: "Call 01375 531355 or send a quote request online with your registration and symptoms. A combined charge of £95 may apply for initial diagnostics, sundries and consumables, and we always explain costs before work starts."},
         ]
     }
 
@@ -54,7 +55,7 @@ export default function Faq(){
             <div className="container mx-auto py-10">
                 <div className="flex flex-col items-center justify-center gap-8">
                     <div className="bg-brand-green/10 flex items-center justify-center rounded-lg p-2 w-60">
-                        <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">LOCATION & BOOKINGS</p>
+                        <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">{faq.badge}</p>
                     </div>
                     <h2 className="text-3xl lg:text-4xl font-black text-black uppercase">{faq.heading}</h2>
                     <p className="text-xs lg:text-sm font-medium text-gray-600">{faq.subHeading}</p>

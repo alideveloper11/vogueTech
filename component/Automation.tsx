@@ -11,22 +11,28 @@ export default function Automation(){
                         <div className="bg-brand-green/10 flex items-center justify-center rounded-lg p-2 w-90">
                             <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">UK ENGINE REBUILD & ENGINEERING SPECIALISTS</p>
                         </div>
-                        <h2 className="text-3xl lg:text-4xl font-black text-black">Expert Engine Rebuilds, Repairs & Performance Restoration</h2>
+                        <h2 className="text-3xl lg:text-4xl font-black text-black">Engine Rebuilds, Repairs and Replacements Done Properly</h2>
                         <p className="text-xs lg:text-sm font-medium text-gray-600">
-                            At <span className="text-brand-darkGreen">Vogue Tech</span>, we specialise in professional engine rebuilding, replacement, and mechanical repair services for luxury, commercial, and enthusiast vehicles across the United Kingdom. Our experienced technicians combine precision engineering with industry-leading practices to restore engine performance, reliability, and efficiency. Whether your vehicle requires a complete engine rebuild, a replacement engine, or a critical repair, we deliver dependable solutions tailored to its specific requirements. From identifying internal engine faults to restoring essential components, we focus on quality workmanship and long-lasting results. Our expertise covers <span className="text-brand-darkGreen">complete engine rebuilds, head gasket replacement, engine health assessments, and DPF cleaning,</span> alongside a range of specialist engine maintenance and repair services. Every job is approached with careful inspection, technical precision, and attention to detail. At Vogue Tech, our goal is simple: to keep your engine running at its best through reliable repairs, expert workmanship, and professional service you can trust.
+                            At <span className="text-brand-darkGreen">Vogue Tech</span>, engines are all we do. For more than 20 years our technicians have stripped, measured and rebuilt the units other garages turn away, including the TDV6, SDV6, SDV8, Ingenium diesel and supercharged 5.0 V8.
+                        </p>
+                        <p className="text-xs lg:text-sm font-medium text-gray-600">
+                            Not every fault needs a full rebuild. We start with a proper diagnostic, explain what we find in plain English and recommend only the work your engine needs. That might be a targeted repair, a head gasket or timing chain replacement, a full reconditioning, or a quality-checked replacement engine when repair no longer makes financial sense.
+                        </p>
+                        <p className="text-xs lg:text-sm font-medium text-gray-600">
+                            Every job is quoted in writing before we start, built with OEM or quality-matched parts, and road-tested before you collect your car.
                         </p>
                         <div className="border-t border-brand-darkGreen w-full flex items-center justify-between pt-8 mt-8">
                             <div className="flex items-center justify-center gap-2">
                                 <CircleCheck size={18} className="text-brand-darkGreen" />
-                                <p className="text-xs lg:text-sm font-medium text-black">OEM Wiring Standards</p>
+                                <p className="text-xs lg:text-sm font-medium text-black">OEM Parts as Standard</p>
                             </div>
                             <div className="flex items-center justify-center gap-2">
                                 <CircleCheck size={18} className="text-brand-darkGreen" />
-                                <p className="text-xs lg:text-sm font-medium text-black">Dealer-Level Software</p>
+                                <p className="text-xs lg:text-sm font-medium text-black">Dealer-Level Diagnostics</p>
                             </div>
                             <div className="flex items-center justify-center gap-2">
                                 <CircleCheck size={18} className="text-brand-darkGreen" />
-                                <p className="text-xs lg:text-sm font-medium text-black">Certified Technicians</p>
+                                <p className="text-xs lg:text-sm font-medium text-black">Experienced Engine Technicians</p>
                             </div>
                         </div>
                     </div>
@@ -40,11 +46,11 @@ export default function Automation(){
                                 className="rounded-lg shadow-[0px_4px_15px_rgba(13,143,81,0.3)] w-100 h-40 object-cover object-center"
                             />
                             <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-white rounded-lg p-2 w-90">
-                                <p className="text-xs font-medium text-brand-darkGreen">
-                                    ADVANCED BENCH RIG
+                                <p className="text-xs font-medium text-brand-darkGreen uppercase">
+                                    Strip and inspection
                                 </p>
                                 <p className="text-xs font-medium text-[#475569]">
-                                    High-frequency oscilloscope & CAN-bus packet analyzer in active operation.
+                                    Every component measured against manufacturer tolerances.
                                 </p>
                             </div>
                         </div>
@@ -57,11 +63,11 @@ export default function Automation(){
                                 className="rounded-lg shadow-[0px_4px_15px_rgba(13,143,81,0.3)] w-100 h-40 object-cover object-center"
                             />
                             <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-white rounded-lg p-2 w-90">
-                                <p className="text-xs font-medium text-brand-darkGreen">
-                                    ADVANCED BENCH RIG
+                                <p className="text-xs font-medium text-brand-darkGreen uppercase">
+                                    Precision rebuild
                                 </p>
                                 <p className="text-xs font-medium text-[#475569]">
-                                    High-frequency oscilloscope & CAN-bus packet analyzer in active operation.
+                                    Reassembled with OEM or quality-matched parts.
                                 </p>
                             </div>
                         </div>
@@ -74,11 +80,11 @@ export default function Automation(){
                                 className="rounded-lg shadow-[0px_4px_15px_rgba(13,143,81,0.3)] w-100 h-40 object-cover object-center"
                             />
                             <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-white rounded-lg p-2 w-90">
-                                <p className="text-xs font-medium text-brand-darkGreen">
-                                    ADVANCED BENCH RIG
+                                <p className="text-xs font-medium text-brand-darkGreen uppercase">
+                                    Final testing
                                 </p>
                                 <p className="text-xs font-medium text-[#475569]">
-                                    High-frequency oscilloscope & CAN-bus packet analyzer in active operation.
+                                    Pressure-checked and road-tested before handover.
                                 </p>
                             </div>
                         </div>
@@ -89,22 +95,28 @@ export default function Automation(){
                         <div className="bg-brand-green/10 flex items-center justify-center rounded-lg p-2 w-60 md:w-90">
                             <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">UK ENGINE REBUILD & ENGINEERING SPECIALISTS</p>
                         </div>
-                        <h2 className="text-3xl lg:text-4xl font-black text-black">Expert Engine Rebuilds, Repairs & Performance Restoration</h2>
+                        <h2 className="text-3xl lg:text-4xl font-black text-black">Engine Rebuilds, Repairs and Replacements Done Properly</h2>
                         <p className="text-xs lg:text-sm font-medium text-gray-600">
-                            At <span className="text-brand-darkGreen">Vogue Tech</span>, we specialise in professional engine rebuilding, replacement, and mechanical repair services for luxury, commercial, and enthusiast vehicles across the United Kingdom. Our experienced technicians combine precision engineering with industry-leading practices to restore engine performance, reliability, and efficiency. Whether your vehicle requires a complete engine rebuild, a replacement engine, or a critical repair, we deliver dependable solutions tailored to its specific requirements. From identifying internal engine faults to restoring essential components, we focus on quality workmanship and long-lasting results. Our expertise covers <span className="text-brand-darkGreen">complete engine rebuilds, head gasket replacement, engine health assessments, and DPF cleaning,</span> alongside a range of specialist engine maintenance and repair services. Every job is approached with careful inspection, technical precision, and attention to detail. At Vogue Tech, our goal is simple: to keep your engine running at its best through reliable repairs, expert workmanship, and professional service you can trust.
+                            At <span className="text-brand-darkGreen">Vogue Tech</span>, engines are all we do. For more than 20 years our technicians have stripped, measured and rebuilt the units other garages turn away, including the TDV6, SDV6, SDV8, Ingenium diesel and supercharged 5.0 V8.
+                        </p>
+                        <p className="text-xs lg:text-sm font-medium text-gray-600">
+                            Not every fault needs a full rebuild. We start with a proper diagnostic, explain what we find in plain English and recommend only the work your engine needs. That might be a targeted repair, a head gasket or timing chain replacement, a full reconditioning, or a quality-checked replacement engine when repair no longer makes financial sense.
+                        </p>
+                        <p className="text-xs lg:text-sm font-medium text-gray-600">
+                            Every job is quoted in writing before we start, built with OEM or quality-matched parts, and road-tested before you collect your car.
                         </p>
                         <div className="border-t border-brand-darkGreen w-full flex items-center justify-between pt-8 mt-4">
                             <div className="flex items-center justify-center gap-2">
                                 <CircleCheck size={18} className="text-brand-darkGreen" />
-                                <p className="text-xs lg:text-sm font-medium text-black">OEM Wiring Standards</p>
+                                <p className="text-xs lg:text-sm font-medium text-black">OEM Parts as Standard</p>
                             </div>
                             <div className="flex items-center justify-center gap-2">
                                 <CircleCheck size={18} className="text-brand-darkGreen" />
-                                <p className="text-xs lg:text-sm font-medium text-black">Dealer-Level Software</p>
+                                <p className="text-xs lg:text-sm font-medium text-black">Dealer-Level Diagnostics</p>
                             </div>
                             <div className="flex items-center justify-center gap-2">
                                 <CircleCheck size={18} className="text-brand-darkGreen" />
-                                <p className="text-xs lg:text-sm font-medium text-black">Certified Technicians</p>
+                                <p className="text-xs lg:text-sm font-medium text-black">Experienced Engine Technicians</p>
                             </div>
                         </div>
                     </div>
@@ -112,33 +124,33 @@ export default function Automation(){
                         <div className="relative">
                             <Image src="/Automotive-Diagnostic-ECU-and-Wiring-Bench-at-Vogue-Tech.webp" alt="Automotive Diagnostic ECU and Wiring Bench at Vogue Tech" width={394} height={220} className="rounded-lg shadow-[0px_4px_15px_rgba(13,143,81,0.3)]" />
                             <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-white rounded-lg p-2 w-60 md:w-90">
-                                <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">
-                                    ADVANCED BENCH RIG
+                                <p className="text-xs lg:text-sm font-medium text-brand-darkGreen uppercase">
+                                    Strip and inspection
                                 </p>
                                 <p className="text-xs lg:text-sm font-medium text-[#475569]">
-                                    High-frequency oscilloscope & CAN-bus packet analyzer in active operation.
+                                    Every component measured against manufacturer tolerances.
                                 </p>
                             </div>
                         </div>
                         <div className="relative">
                             <Image src="/Automotive-Diagnostic-ECU-and-Wiring-Bench-at-Vogue-Tech.webp" alt="Automotive Diagnostic ECU and Wiring Bench at Vogue Tech" width={394} height={220} className="rounded-lg shadow-[0px_4px_15px_rgba(13,143,81,0.3)]" />
                             <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-white rounded-lg p-2 w-60 md:w-90">
-                                <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">
-                                    ADVANCED BENCH RIG
+                                <p className="text-xs lg:text-sm font-medium text-brand-darkGreen uppercase">
+                                    Precision rebuild
                                 </p>
                                 <p className="text-xs lg:text-sm font-medium text-[#475569]">
-                                    High-frequency oscilloscope & CAN-bus packet analyzer in active operation.
+                                    Reassembled with OEM or quality-matched parts.
                                 </p>
                             </div>
                         </div>
                         <div className="relative">
                             <Image src="/Automotive-Diagnostic-ECU-and-Wiring-Bench-at-Vogue-Tech.webp" alt="Automotive Diagnostic ECU and Wiring Bench at Vogue Tech" width={394} height={220} className="rounded-lg shadow-[0px_4px_15px_rgba(13,143,81,0.3)]" />
                             <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-white rounded-lg p-2 w-60 md:w-90">
-                                <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">
-                                    ADVANCED BENCH RIG
+                                <p className="text-xs lg:text-sm font-medium text-brand-darkGreen uppercase">
+                                    Final testing
                                 </p>
                                 <p className="text-xs lg:text-sm font-medium text-[#475569]">
-                                    High-frequency oscilloscope & CAN-bus packet analyzer in active operation.
+                                    Pressure-checked and road-tested before handover.
                                 </p>
                             </div>
                         </div>
