@@ -8,7 +8,7 @@ const items = [
   {
     icon: PhoneCall,
     label: "Phone",
-    content: <p>01375 531355</p>,
+    content: <p className="flex flex-col gap-2"><span>Tel: 01375 531355</span><span>Mob: 07578 227223</span></p>,
   },
   {
     icon: Mail,
@@ -20,7 +20,7 @@ const items = [
     label: "Address",
     content: (
       <p>
-        Unit 1D, Hedley Avenue, West Thurrock, RM20 4EL
+        UNIT 1D Hedley Avenue, Grays, RM20 4EL
       </p>
     ),
   },
@@ -44,8 +44,8 @@ export default function Contact() {
     <main>
       <NavBar />
       <main className="mt-30 mb-16 bg-white px-4 md:px-20 lg:px-40">
-        <section className="flex flex-col lg:flex-row gap-4 container mx-auto">
-          <div className="relative mb-4 p-4 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.2)] rounded-lg
+        <section className="flex flex-col lg:flex-row gap-12 max-w-6xl mx-auto">
+          <div className="w-full lg:w-2/3 relative mb-4 p-4 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.2)] rounded-lg
           before:content-[''] before:absolute before:-top-1
           before:left-0 before:right-0 before:h-1
           before:bg-[linear-gradient(90deg,#0D8F51_0%,#DCDCDC_100%)]
@@ -66,7 +66,7 @@ export default function Contact() {
               </div>
               <ContactForm />
           </div>
-          <div className="relative mb-4 p-6 md:p-8 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.2)] rounded-lg flex flex-col gap-6">
+          <div className="w-full lg:w-1/3 relative mb-4 p-6 md:p-8 bg-white shadow-[0px_0px_15px_rgba(0,0,0,0.2)] rounded-lg flex flex-col gap-6">
             <h2 className="text-2xl lg:text-3xl font-black text-black">
               Contact information
             </h2>
@@ -80,10 +80,10 @@ export default function Contact() {
                       <Icon size={30} className="text-brand-green" />
                     </div>
                     <span className="text-xs lg:text-sm font-medium text-gray-500 uppercase tracking-wide">
-                      {label}
+                      {label} {label === "Address" ? <span className="text-[10px]">{`(Vogue Tech is a part of Vogue Technics)`}</span> : ""}
                     </span>
                   </div>
-                  <span className="text-base lg:text-lg font-bold text-black">
+                  <span className="text-sm lg:text-base font-bold text-black">
                     {content}
                   </span>
                 </div>
