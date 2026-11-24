@@ -18,15 +18,15 @@ export default function HeroSection(){
                                     <p className="relative mx-8 p-2 text-xs lg:text-sm font-extrabold text-brand-green text-center
                                         before:content-[''] before:absolute before:left-0 before:top-1/2
                                         before:-translate-y-1/2 before:h-4 before:w-[2px] before:bg-brand-green">
-                                        UK AUTOMATION SPECIALISTS
+                                        UK ENGINE SPECIALISTS
                                     </p>
                                 </div>
-                                <div className="max-w-150">
-                                    <h1 className="text-white text-3xl lg:text-5xl font-black text-center">Next-Generation <span className="text-[#BBF7D0]">Vehicle</span> <span className="text-[#34D399]">Automation</span> & Electronic Architecture</h1>
+                                <div className="max-w-200">
+                                    <h1 className="text-white text-3xl lg:text-5xl font-black text-center">Specialist <span className="text-[#BBF7D0]">Engine Rebuilds</span>, <span className="text-[#34D399]">Repairs & Diagnostics</span> in Essex</h1>
                                 </div>
                                 <div className="max-w-150">
                                     <p className="text-center text-xs lg:text-sm font-medium text-brand-grey">
-                                        {`The UK's premier automotive workshop dedicated to OEM retrofits, ADAS radar calibration, intelligent telematics, and ECU software engineering for luxury and modern vehicles.`}
+                                        {`Vogue Tech is an independent engine workshop in Thurrock for Range Rover, Land Rover, Jaguar, Audi and BMW. You get an accurate diagnosis, a fixed written quote and warranty-backed work at well below main dealer prices.`}
                                     </p>
                                 </div>
                                 <div className="flex flex-row gap-4">
@@ -38,20 +38,20 @@ export default function HeroSection(){
                         <div className="justify-items-center">
                             <div className="border-t border-white/20 py-8 flex items-center justify-between w-full">
                                 <div className="flex flex-col items-center justify-center gap-2">
-                                    <span className="text-white text-lg lg:text-xl font-bold">100%</span>
-                                    <span className="text-brand-grey text-xs lg:text-sm font-medium">OEM COMPLIANT</span>
+                                    <span className="text-white text-lg lg:text-xl font-bold">20+ Years</span>
+                                    <span className="text-brand-grey text-xs lg:text-sm font-medium">Specialist engine experience</span>
                                 </div>
                                 <div className="flex flex-col items-center justify-center gap-2">
-                                    <span className="text-white text-lg lg:text-xl font-bold">5,000+</span>
-                                    <span className="text-brand-grey text-xs lg:text-sm font-medium">SYSTEMS CALIBRATED</span>
+                                    <span className="text-white text-lg lg:text-xl font-bold">4.9/5</span>
+                                    <span className="text-brand-grey text-xs lg:text-sm font-medium">Google rating (159 reviews)</span>
                                 </div>
                                 <div className="flex flex-col items-center justify-center gap-2">
-                                    <span className="text-white text-lg lg:text-xl font-bold">IMI & ATA</span>
-                                    <span className="text-brand-grey text-xs lg:text-sm font-medium">CERTIFIED TECHNICIANS</span>
+                                    <span className="text-white text-lg lg:text-xl font-bold">IGA</span>
+                                    <span className="text-brand-grey text-xs lg:text-sm font-medium">Accredited independent garage</span>
                                 </div>
                                 <div className="flex flex-col items-center justify-center gap-2">
-                                    <span className="text-white text-lg lg:text-xl font-bold">12-Month</span>
-                                    <span className="text-brand-grey text-xs lg:text-sm font-medium">STANDARD WARRANTY</span>
+                                    <span className="text-white text-lg lg:text-xl font-bold">Up to 6 Months</span>
+                                    <span className="text-brand-grey text-xs lg:text-sm font-medium">Warranty available</span>
                                 </div>
                             </div>
                         </div>

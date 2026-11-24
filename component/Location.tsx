@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-import { ArrowRight, MapPin, Phone, Mail, Clock } from "lucide-react"
+import { MapPin, Phone, Mail, Clock, ArrowRight } from "lucide-react"
 
 export default function Location(){
     return(
@@ -10,8 +10,8 @@ export default function Location(){
                     <div className="bg-brand-green/10 flex items-center justify-center rounded-lg p-2 w-60 md:w-90">
                         <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">LOCATION & BOOKINGS</p>
                     </div>
-                    <h2 className="text-3xl lg:text-4xl font-black text-black">Visit Our Specialist UK Workshop</h2>
-                    <p className="text-xs lg:text-sm font-medium text-gray-500">Conveniently situated with dedicated diagnostic bays and client waiting lounge.</p>
+                    <h2 className="text-3xl lg:text-4xl font-black text-black">Visit Our Engine Workshop in Thurrock, Essex</h2>
+                    <p className="text-xs lg:text-sm font-medium text-gray-500">Minutes from the M25 and Dartford Crossing, with easy access from Essex, Kent and East London.</p>
                 </div>
                 <div className="py-8 grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="bg-brand-yellowBg p-8 border border-[#D1FAE5] rounded-xl">
@@ -23,11 +23,11 @@ export default function Location(){
                                         <MapPin size={30} className="text-brand-green" />
                                     </div>
                                     <div className="">
-                                        <h2 className="text-xs lg:text-sm font-medium text-gray-500">
-                                            WORKSHOP ADDRESS
+                                        <h2 className="text-xs lg:text-sm font-medium text-gray-500 uppercase">
+                                            Workshop address
                                         </h2>
                                         <p className="text-xs lg:text-sm font-extrabold text-black">
-                                            UNIT 1D Hedley Avenue RM20 4EL
+                                            Unit 1D, Hedley Avenue, West Thurrock, RM20 4EL
                                         </p>
                                     </div>
                                 </div>
@@ -36,8 +36,8 @@ export default function Location(){
                                         <Phone size={30} className="text-brand-green" />
                                     </div>
                                     <div className="">
-                                        <h2 className="text-xs lg:text-sm font-medium text-gray-500">
-                                            DIRECT TELEPHONE
+                                        <h2 className="text-xs lg:text-sm font-medium text-gray-500 uppercase">
+                                            Telephone
                                         </h2>
                                         <p className="text-xs lg:text-sm font-extrabold text-black">
                                             01375 531355
@@ -49,11 +49,11 @@ export default function Location(){
                                         <Mail size={30} className="text-brand-green" />
                                     </div>
                                     <div className="">
-                                        <h2 className="text-xs lg:text-sm font-medium text-gray-500">
-                                            TECHNICAL INQUIRIES
+                                        <h2 className="text-xs lg:text-sm font-medium text-gray-500 uppercase">
+                                            Enquiries
                                         </h2>
                                         <p className="text-xs lg:text-sm font-extrabold text-black">
-                                            info@voguetech.co.uk
+                                            sales@voguetechnics.co.uk
                                         </p>
                                     </div>
                                 </div>
@@ -62,16 +62,22 @@ export default function Location(){
                                         <Clock size={30} className="text-brand-green" />
                                     </div>
                                     <div className="">
-                                        <h2 className="text-xs lg:text-sm font-medium text-gray-500">
-                                            WORKSHOP OPENING HOURS
+                                        <h2 className="text-xs lg:text-sm font-medium text-gray-500 uppercase">
+                                            Opening hours
                                         </h2>
                                         <p className="text-xs lg:text-sm font-extrabold text-black">
-                                            Monday – Friday: 09:00 – 18:00 Saturday: 08:00 – 14:00 (Bookings only) Sunday: Closed
+                                            Monday - Friday: 9:00 AM - 6:00 PM
+                                        </p>
+                                        <p className="text-xs lg:text-sm font-extrabold text-black">
+                                            Saturday: 8:00 AM - 2:00 PM
+                                        </p>
+                                        <p className="text-xs lg:text-sm font-extrabold text-black">
+                                            Sunday: Closed
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <Link href="/contact" className="w-fit inline-flex gap-2 items-center justify-center bg-brand-green rounded-lg p-4 text-white text-xs xl:text-sm font-medium transition-colors duration-300 hover:bg-brand-darkGreen">Request a Quote <ArrowRight size={20} /></Link>
+                            <Link href="/contact" className="w-fit inline-flex gap-2 items-center justify-center bg-brand-green rounded-lg p-4 text-white text-xs xl:text-sm font-medium transition-colors duration-300 hover:bg-brand-darkGreen">Request a Quote <ArrowRight size={16} /></Link>
                         </div>
                     </div>
                     <div className="flex justify-center">

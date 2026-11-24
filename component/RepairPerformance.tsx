@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 import { MonitorActivity, Radar, Zap, Settings } from "lucide-react"
 
 const initialList = [
-    { index: 0, active: true,  icon: MonitorActivity, title: "Engine Diagnostics", desc: "Fault detection & engine health analysis" },
-    { index: 1, active: false, icon: Radar, title: "Engine Rebuild", desc: "Complete engine restoration" },
-    { index: 2, active: false, icon: Zap, title: "Turbo Systems", desc: "Turbocharger repair & replacement" },
-    { index: 3, active: false, icon: Settings, title: "Engine Components", desc: "Timing chain & gasket solutions" },
+    { index: 0, active: true,  icon: MonitorActivity, title: "Engine Diagnostics", desc: "Fault finding and engine health analysis" },
+    { index: 1, active: false, icon: Radar, title: "Engine Rebuild", desc: "Complete engine reconditioning" },
+    { index: 2, active: false, icon: Zap, title: "Turbo Systems", desc: "Turbocharger repair and replacement" },
+    { index: 3, active: false, icon: Settings, title: "Engine Components", desc: "Timing chains, belts and head gaskets" },
 ];
 
 export default function RepairPerformance(){
@@ -33,11 +33,11 @@ export default function RepairPerformance(){
                             <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">ENGINEERING & PERFORMANCE</p>
                         </div>
                         <div className="">
-                            <h1 className="text-black text-3xl lg:text-5xl font-black text-center">Advanced Engine Repair & Performance</h1>
+                            <h1 className="text-black text-3xl lg:text-5xl font-black text-center">Advanced Engine Repair and Performance</h1>
                         </div>
                         <div className="">
                             <p className="text-xs lg:text-sm font-medium text-gray-700 text-center">
-                                Precision engineering and expert solutions to keep your engine performing at its best.
+                                Specialist knowledge for every major part of your engine.
                             </p>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ export default function RepairPerformance(){
                                 The Importance of Professional Engine Maintenance
                             </h2>
                             <p className="text-xs lg:text-sm font-medium text-gray-500">
-                                Modern engines require precise engineering, accurate diagnostics, and specialized repair techniques to maintain reliability and performance. At Vogue Tech, we focus on identifying underlying engine issues, restoring critical components, and delivering dependable repair solutions. From timing chain replacement and head gasket repairs to complete engine rebuilds, our approach prioritizes performance, durability, and long-term engine health.
+                                Most major engine failures start small. Low oil, a stretched timing chain or a missed belt interval can quietly wear an engine until repair becomes a rebuild. Many Range Rover models have no physical dipstick, so the oil level has to be checked through the dashboard display, and it should be checked regularly. Regular health checks and timely repairs cost far less than a replacement engine and keep your vehicle reliable for years.
                             </p>
                         </div>
                     </div>

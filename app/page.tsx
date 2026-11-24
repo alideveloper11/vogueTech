@@ -13,6 +13,16 @@ import Gallery from "@/component/Gallery";
 import RepairPerformance from "@/component/RepairPerformance";
 import Services from "@/component/Services";
 
+const baseUrl = "http://localhost:3000/"
+export const metadata = {
+  metadataBase: new URL(baseUrl),
+  title: "Engine Rebuild & Repair Specialists in Essex | Vogue Tech",
+  description: "Vogue Tech rebuilds, repairs and replaces Range Rover, Land Rover, Jaguar, Audi and BMW engines in Thurrock, Essex. 20+ years' experience. Get a quote.",
+  alternates: {
+      canonical: "/",
+  },  
+};
+
 export default function Home() {
   return (
     <main>

@@ -15,23 +15,29 @@ export default function NavBar(){
         { name: "Home", href: "#home" },
         { name: "Services", href: "#services" },
         { name: "About Us", href: "#about-us" },
-        { name: "Contact", href: "#contact" },
+        { name: "Contact", href: "/contact" },
         { name: "Gallery", href: "#gallery" },
     ];
     function toggleMenu() {
         setIsMenuOpen(!isMenuOpen);
     }
-    function handleClick(id: string) {
+    function handleClick(href: string) {
         setIsMenuOpen(false);
 
-        if (pathname === "/") {
-            const targetId = id.replace("#", "");
+        if (href.startsWith("#")) {
 
-            document.getElementById(targetId)?.scrollIntoView({
-                behavior: "smooth",
-            });
+            if (pathname === "/") {
+                const targetId = href.substring(1);
+
+                document.getElementById(targetId)?.scrollIntoView({
+                    behavior: "smooth",
+                });
+            } else {
+                router.push(`/${href}`);
+            }
+
         } else {
-            router.push(`/${id}`);
+            router.push(href);
         }
     }
     useEffect(() => {
@@ -66,7 +72,9 @@ export default function NavBar(){
             <div className=" container mx-auto">
                 <div className="flex items-center justify-between">
                     <div>
-                        <Image src="/VogueTech_logo.png" alt="Vogue Tech Logo" width={190} height={48} className="w-30 h-auto" />
+                        <Link href={"/"}>
+                            <Image src="/VogueTech_logo.png" alt="Vogue Tech Logo" width={190} height={48} className="w-30 h-auto" />
+                        </Link>
                     </div>
                     <nav className="hidden lg:flex gap-6 items-center justify-center w-full">
                         {links.map((l) => {

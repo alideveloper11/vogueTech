@@ -13,16 +13,14 @@ const items = [
   {
     icon: Mail,
     label: "Email",
-    content: <p className="break-all">info@voguetech.co.uk</p>,
+    content: <p className="break-all">sales@voguetechnics.co.uk</p>,
   },
   {
     icon: MapPin,
     label: "Address",
     content: (
       <p>
-        Unit 1D, Hedley
-        <br />
-        Avenue RM20 4EL, UK
+        Unit 1D, Hedley Avenue, West Thurrock, RM20 4EL
       </p>
     ),
   },
@@ -31,11 +29,11 @@ const items = [
     label: "Working Hours",
     content: (
       <p>
-        Mon – Fri: 09:00 – 18:00
+        Monday - Friday: 9:00 AM - 6:00 PM
         <br />
-        Sat: 08:00 – 14:00 |
+        Saturday: 8:00 AM - 2:00 PM
         <br />
-        (Only For Booking)
+        Sunday: Closed
       </p>
     ),
   },
