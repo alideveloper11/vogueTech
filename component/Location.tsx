@@ -10,7 +10,7 @@ export default function Location(){
                     <div className="bg-brand-green/10 flex items-center justify-center rounded-lg p-2 w-60 md:w-90">
                         <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">LOCATION & BOOKINGS</p>
                     </div>
-                    <h2 className="text-3xl lg:text-4xl font-black text-black">Visit Our Engine Workshop in Thurrock, Essex</h2>
+                    <h2 className="text-3xl lg:text-4xl font-black text-black">Visit Our Engine Workshop in Grays</h2>
                     <p className="text-xs lg:text-sm font-medium text-gray-500">Minutes from the M25 and Dartford Crossing, with easy access from Essex, Kent and East London.</p>
                 </div>
                 <div className="py-8 grid grid-cols-1 md:grid-cols-2 gap-8">
