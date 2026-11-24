@@ -72,9 +72,9 @@ export default function NavBar(){
             <div className=" container mx-auto">
                 <div className="flex items-center justify-between">
                     <div>
-                        <Link href={"/"}>
+                        <button onClick={()=> handleClick("#home")} className="cursor-pointer">
                             <Image src="/VogueTech_logo.png" alt="Vogue Tech Logo" width={190} height={48} className="w-30 h-auto" />
-                        </Link>
+                        </button>
                     </div>
                     <nav className="hidden lg:flex gap-6 items-center justify-center w-full">
                         {links.map((l) => {

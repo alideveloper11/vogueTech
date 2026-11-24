@@ -13,9 +13,12 @@ export default function ReviewCarousel() {
     const [step, setStep] = useState(0)
 
     const list = [
-        { nameShort: "AW", name: "Alexander Wright", location: "London, UK • 2 weeks ago", content: `"Vogue Tech completed an electric soft-close door and 360° camera retrofit on my Range Rover Autobiography. Flawless OEM finish, identical to factory spec with zero dashboard fault codes. Incredible craftsmanship."`, service: "Service: OEM Soft-Close Retrofit" },
-        { nameShort: "SC", name: "Sarah Cartwright", location: "Surrey, UK • 1 month ago", content: `"Had persistent ADAS radar misalignment following a windscreen replacement at another centre. Vogue Tech recalibrated the radar and stereo cameras within 2 hours. Very knowledgeable UK automotive engineers."`, service: "Service: ADAS Radar Calibration" },
-        { nameShort: "DB", name: "David Bennett", location: "Berkshire, UK • 3 weeks ago", content: `"Their ECU diagnostics bench is superior to the main dealership. Diagnosed an intermittent CAN-bus electrical fault that two other garages failed to trace. Highly recommend their automation and wiring service."`, service: "Service: CAN-Bus & ECU Diagnostic" },
+        { nameShort: "ZTK", name: "Zarin Tasnim Khan", location: "2 months ago", content: `"Really happy with the service I received here. The whole process was smooth and straightforward, and the staff were friendly, professional and helpful throughout. They took good care of my car and kept me informed about everything that was being done. The service was completed efficiently and I felt like my car was in good hands. I’d definitely recommend this place to anyone looking for a reliable and trustworthy garage. I’ll be coming back in the future!"`, service: "Service: OEM Soft-Close Retrofit" },
+        { nameShort: "MD", name: "Meeka Duhaney", location: "1 month ago", content: `"I can’t thank Vic enough for the amazing job he did fixing my car. He was kind, professional and genuinely went above and beyond. It’s refreshing to come across someone who takes pride in their work and treats their customers with such kindness. I really appreciate all his help and the effort he put into getting my car sorted. I would highly recommend Vic to anyone looking for a trustworthy and reliable mechanic. Thank you again, Vic!"`, service: "Service: ADAS Radar Calibration" },
+        { nameShort: "SS", name: "SUNPREET SANDHEY", location: "6 months ago", content: `"I had a really good experience with vogue technics they have fixed my Mercedes C180, done engine refurbisment with them car feel like it has got a new life everything working as it should . There team is so helpfull from the start of the job they helped me recover my car when it brokedown on the motorway,explained me everything throughout the job and gave me the best advise . Az and Jack were dealing with me throughout the job and they have done a great job updated me on every step via whatsapp group and made my life really easy ."`, service: "Service: CAN-Bus & ECU Diagnostic" },
+        { nameShort: "PM", name: "Paul Munroe", location: "2 months ago", content: `"Most astounding service i have ever had! The car went in for a wet belt change and they kept me in the loop with WhatsApp messages & videos every step of the way. The guys I met were always very helpful and pleasant, all in all a very good experience The price was less than half of what the main dealer quoted me and I didn't have to wait months to book it in. I highly recommend Vogue Technics for their professionalism and courtesy as well as a good job done."`, service: "Service: OEM Soft-Close Retrofit" },
+        { nameShort: "C", name: "Chris", location: "2 month ago", content: `"Really excellent service. The team were so kind, friendly, and professional, and I immediately felt I could trust them. They were honest, helpful, and clearly knowledgeable about what they were doing. It’s reassuring to find a garage you can rely on. I would definitely recommend them! Thank you. Bless to Vogue Technics. 🙏🏿"`, service: "Service: ADAS Radar Calibration" },
+        { nameShort: "AA", name: "Argon Automotive", location: "1 months ago", content: `"We had a suspected head gasket issue with our SVR and had quotes from multiple gargaes for the work, we then found Vogue technics and spoke to Jack who you could tell after seconds of speaking to him he knew what he was on about, not to mention he gave us a quote instanlty which turned out to be much cheaper than anyone else we spoke too. They have 10 ramps I belive and specialise in LR engines so we felt confident leaving our 40k vehicle there. They even aranged collection. Whole thing took a few weeks. Would recommend to anyone! Thanks Jack and your team."`, service: "Service: CAN-Bus & ECU Diagnostic" },
     ];
 
     // 4 copies so the track always has enough cards to fill wide screens
@@ -80,21 +83,21 @@ export default function ReviewCarousel() {
                 >
                     {items.map((item, index) => {
                         return (
-                            <div key={index} className="bg-white p-4 shadow-md rounded-lg w-90">
-                                <div className="flex gap-2 mb-4">
+                            <div key={index} className="bg-white p-4 shadow-md rounded-lg w-90 grid grid-rows-[auto_auto_1fr_auto] gap-y-4">
+                                <div className="flex gap-2">
                                     <span className="inline-flex rounded-full bg-brand-green text-white w-10 h-10 items-center justify-center">{item.nameShort}</span>
                                     <div>
                                         <p className="text-lg lg:text-xl font-bold text-black">{item.name}</p>
                                         <p className="text-xs lg:text-sm font-medium text-brand-grey">{item.location}</p>
                                     </div>
                                 </div>
-                                <div className="mt-2">
+                                <div className="">
                                     <p className="text-lg lg:text-xl font-bold text-[#FBBF24]">★★★★★</p>
                                 </div>
-                                <div className="mt-2 mb-4">
+                                <div className="">
                                     <p className="text-xs lg:text-sm font-medium text-black">{item.content}</p>
                                 </div>
-                                <div className="mt-2 border-t border-brand-grey pt-4 flex items-center justify-between">
+                                <div className="border-t border-brand-grey pt-4 flex items-center justify-between">
                                     <p className="text-xs lg:text-sm font-medium text-brand-grey">{item.service}</p>
                                     <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">Verified Customer</p>
                                 </div>

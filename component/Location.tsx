@@ -24,10 +24,10 @@ export default function Location(){
                                     </div>
                                     <div className="">
                                         <h2 className="text-xs lg:text-sm font-medium text-gray-500 uppercase">
-                                            Workshop address
+                                            Workshop address <span className="text-[10px]">{`(Vogue Tech is a part of Vogue Technics)`}</span>
                                         </h2>
                                         <p className="text-xs lg:text-sm font-extrabold text-black">
-                                            Unit 1D, Hedley Avenue, West Thurrock, RM20 4EL
+                                            UNIT 1D Hedley Avenue, Grays, RM20 4EL
                                         </p>
                                     </div>
                                 </div>
@@ -35,13 +35,27 @@ export default function Location(){
                                     <div className="bg-white border border-[#D1FAE5] rounded-lg p-2 w-fit shrink-0">
                                         <Phone size={30} className="text-brand-green" />
                                     </div>
-                                    <div className="">
-                                        <h2 className="text-xs lg:text-sm font-medium text-gray-500 uppercase">
-                                            Telephone
-                                        </h2>
-                                        <p className="text-xs lg:text-sm font-extrabold text-black">
-                                            01375 531355
-                                        </p>
+                                    <div className="flex gap-4 lg:gap-8">
+                                        <div>
+                                            <div className="">
+                                                <h2 className="text-xs lg:text-sm font-medium text-gray-500 uppercase">
+                                                    Tel:
+                                                </h2>
+                                                <p className="text-xs lg:text-sm font-extrabold text-black">
+                                                    01375 531355
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div className="">
+                                                <h2 className="text-xs lg:text-sm font-medium text-gray-500 uppercase">
+                                                    Mob:
+                                                </h2>
+                                                <p className="text-xs lg:text-sm font-extrabold text-black">
+                                                    07578 227223
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="mt-4 flex items-start gap-4">
