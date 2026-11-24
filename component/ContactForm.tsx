@@ -3,8 +3,11 @@
 import { useState, useEffect } from "react"
 import type { ChangeEvent, FormEvent } from "react";
 import { toast } from "react-toastify"
+import { useRouter } from "next/navigation";
 
 export default function ContactForm({compact = false}:{compact?:boolean}) {
+
+    const router = useRouter()
 
     const [loading, setLoading] = useState(false);
     const [num1, setNum1] = useState((0))
@@ -126,6 +129,7 @@ export default function ContactForm({compact = false}:{compact?:boolean}) {
             setPostcodeVal("");
             setIssueVal("");
             generateCaptcha();
+            router.push("/")
         } catch {
             toast.error("Something went wrong. Please try again or call us.");
         } finally {
