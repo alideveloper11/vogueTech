@@ -45,14 +45,14 @@ export default function Footer(){
                         </div>
                         <div className="flex flex-col gap-4">
                             <span className="text-xs lg:text-sm font-medium text-brand-green">WORKSHOP CONTACT</span>
-                            <span className="mt-2 text-xs lg:text-sm font-medium text-Text-grey inline-flex items-center gap-2"><MapPin size={20} className="text-brand-green shrink-0" />UNIT 1D Hedley Avenue, Grays, RM20 4EL</span>
+                            <span className="mt-2 text-xs lg:text-sm font-medium text-Text-grey inline-flex items-center gap-2"><MapPin size={20} className="text-brand-green shrink-0" /><Link href={"https://www.google.com/maps?cid=965081466407451165&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF"}>UNIT 1D Hedley Avenue, Grays, RM20 4EL</Link></span>
                             <span className="text-xs lg:text-sm font-medium text-Text-grey inline-flex items-center gap-2"><Phone size={20} className="text-brand-green shrink-0" />
                                 <span className="flex flex-col items-start justify-center gap-2">
-                                    <span>Tel: 01375 531355</span>
-                                    <span>Mob: 07578 227223</span>
+                                    <Link href={"tel:01375 531355"}>Tel: 01375 531355</Link>
+                                    <Link href={"tel:07578 227223"}>Mob: 07578 227223</Link>
                                 </span>
                             </span>
-                            <span className="text-xs lg:text-sm font-medium text-Text-grey inline-flex items-center gap-2"><Mail size={20} className="text-brand-green shrink-0" />sales@voguetechnics.co.uk</span>
+                            <span className="text-xs lg:text-sm font-medium text-Text-grey inline-flex items-center gap-2"><Mail size={20} className="text-brand-green shrink-0" /><Link href={"mailto:sales@voguetechnics.co.uk"}>sales@voguetechnics.co.uk</Link></span>
                             <span className="text-xs lg:text-sm font-medium text-Text-grey inline-flex items-center gap-2"><Clock size={20} className="text-brand-green shrink-0" />{`| Monday - Friday: 9:00 AM - 6:00 PM | Saturday: 8:00 AM - 2:00 PM | Sunday: Closed`}</span>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ export default function Footer(){
                         </div>
                         <div className="flex items-center justify-center gap-2">
                             <span className="text-xs lg:text-sm font-medium text-Text-grey">Powered by</span>
-                            <span className="text-xs lg:text-sm font-medium text-white border border-brand-green p-1 rounded-lg">4xCode</span>
+                            <Link href={"https://www.4xcode.com/"} className="text-xs lg:text-sm font-medium text-white border border-brand-green p-1 rounded-lg">4xCode</Link>
                         </div>
                     </div>
                 </div>

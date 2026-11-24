@@ -97,10 +97,6 @@ export default function ReviewCarousel() {
                                 <div className="">
                                     <p className="text-xs lg:text-sm font-medium text-black">{item.content}</p>
                                 </div>
-                                <div className="border-t border-brand-grey pt-4 flex items-center justify-between">
-                                    <p className="text-xs lg:text-sm font-medium text-brand-grey">{item.service}</p>
-                                    <p className="text-xs lg:text-sm font-medium text-brand-darkGreen">Verified Customer</p>
-                                </div>
                             </div>
                         )
                     })}
