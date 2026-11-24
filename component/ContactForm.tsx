@@ -99,20 +99,20 @@ export default function ContactForm({compact = false}:{compact?:boolean}) {
         }
         setLoading(true);
         try {
-            const formData = new FormData();    
-            formData.append("vrm", registration.toUpperCase());
-            formData.append("name", nameVal.trim());
-            formData.append("email", emailVal.trim());
-            formData.append("phone", phoneVal);
-            formData.append("postcode", postcodeVal.trim());
-            formData.append("issue", issueVal.trim());
             const res = await fetch("/api/contact", {
-            method: "POST",
-            headers: { 
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-            },
-            body: formData,
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json",
+                },
+                body: JSON.stringify({
+                    registration: registration.toUpperCase(),
+                    name: nameVal.trim(),
+                    email: emailVal.trim(),
+                    phone: phoneVal,
+                    postcode: postcodeVal.trim(),
+                    issue: issueVal.trim(),
+                }),
             });
             if (!res.ok) {
             throw new Error(`Request failed: ${res.status}`);
