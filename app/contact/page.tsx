@@ -1,6 +1,7 @@
 import Footer from "@/component/Footer";
 import NavBar from "@/component/NavBar";
 import ContactForm from "@/component/ContactForm";
+import Link from "next/link";
 
 import { Zap, PhoneCall, Mail, MapPin, Clock } from "lucide-react";
 
@@ -8,20 +9,20 @@ const items = [
   {
     icon: PhoneCall,
     label: "Phone",
-    content: <p className="flex flex-col gap-2"><span>Tel: 01375 531355</span><span>Mob: 07578 227223</span></p>,
+    content: <p className="flex flex-col gap-2"><Link href={"tel:01375 531355"}>Tel: 01375 531355</Link><Link href={"tel:07578 227223"}>Mob: 07578 227223</Link></p>,
   },
   {
     icon: Mail,
     label: "Email",
-    content: <p className="break-all">sales@voguetechnics.co.uk</p>,
+    content: <Link href={"mailto:sales@voguetechnics.co.uk"} className="break-all">sales@voguetechnics.co.uk</Link>,
   },
   {
     icon: MapPin,
     label: "Address",
     content: (
-      <p>
+      <Link href={"https://www.google.com/maps?cid=965081466407451165&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF"}>
         UNIT 1D Hedley Avenue, Grays, RM20 4EL
-      </p>
+      </Link>
     ),
   },
   {
